@@ -111,3 +111,7 @@ search.addEventListener("input", (e) => {
   let searchValue = e.target.value;
   debouncedSearch(searchValue);
 });
+
+function something() {
+  console.log("something");
+}

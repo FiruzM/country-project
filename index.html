@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-black/10  p-4">
+        <div class="mx-auto max-w-[1170px]">
+            <div class="flex items-center justify-between gap-4">
+                <h1 class="text-5xl font-bold text-blue-600 drop-shadow-lg">
+                    <a href="./index.html">
+                        Countries of the World
+                    </a>
+                </h1>
+
+                <div class="flex gap-8 items-center">
+                    <input id="search" type="text" placeholder="Ҷустуҷӯйи давлатҳо"
+                        class="w-[200px]  p-1 pl-4 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-300 outline-none transition duration-300">
+
+                    <select id="select"
+                        class="cursor-pointer p-2 border-2 border-gray-300 rounded-lg bg-white text-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 outline-none transition duration-300">
+                        <option value="all">Ҳаммаи давлатҳо</option>
+                        <option value="asia">Осиё</option>
+                        <option value="">Африқо</option>
+                        <option value="Амрикои Шимолӣ">Амрикои Шимолӣ</option>
+                        <option value="Амрикои Ҷанубӣ">Амрикои Ҷанубӣ</option>
+                        <option value="europe">Аврупо</option>
+                        <option value="Австралия">Австралия</option>
+                    </select>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="max-w-[1170px] mx-auto flex flex-wrap justify-between mt-[20px] gap-5 rounded-md border-gray-200 "
+            id="m_div">
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
